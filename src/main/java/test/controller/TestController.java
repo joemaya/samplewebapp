@@ -18,7 +18,7 @@ public class TestController {
         if(request != null) {
             UserResponse response = new UserResponse();
             response.setUser_id(request.getUser_name());
-            response.setPassword("password");
+//            response.setPassword("password");
             response.setUsername(request.getUser_name());
             response.setStatus_code(123);
             response.setStatus_message("sample message");

@@ -1,9 +1,11 @@
 package test.model;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.Setter;
 
 
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserResponse  extends Response{
     private String user_id;
     private String username;
